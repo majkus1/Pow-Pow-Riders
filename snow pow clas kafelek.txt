@@ -1,0 +1,228 @@
+<section className='become-instructor' style={margininfo}>
+						<div className='programm-block'>
+							<div className='all-blocks'>
+								<img
+									src='/img/spclass.webp'
+									loading='eager'
+									alt='logo szkolenia indywidualnego snow pow class'
+									sizes='100vw'
+									className='image-block'
+									style={{ width: '100%', height: '350' }}
+									width={0}
+									height={350}
+								/>
+								<img
+									src='/img/spclass.webp'
+									loading='eager'
+									alt='logo szkolenia indywidualnego snow pow class'
+									sizes='100vw'
+									className='image-block-medium'
+									style={{ width: '100%', height: '440' }}
+									width={0}
+									height={440}
+								/>
+								<img
+									src='/img/spclass.webp'
+									loading='eager'
+									alt='logo szkolenia indywidualnego snow pow class'
+									sizes='100vw'
+									className='image-block-xl'
+									style={{ width: '100%', height: '540' }}
+									width={0}
+									height={540}
+								/>
+								<div className='img-container'>
+									<img
+										src='/img/spclass.webp'
+										loading='eager'
+										alt='logo szkolenia indywidualnego snow pow class'
+										sizes='100vw'
+										className='image-block-xl-two'
+										style={{ width: '100%', height: '370' }}
+										width={0}
+										height={370}
+									/>
+								</div>
+								{sectionIndex === 0 && (
+									<div className='buttons-to-slider'>
+										<div className='left-btn'>
+											<button onClick={handleLeftArrowClick}>
+												<AiOutlineLeft />
+											</button>
+											<p className='btn-dscrb'>faq</p>
+										</div>
+										<div className='right-btn'>
+											<button onClick={handleRightArrowClick}>
+												<AiOutlineRight />
+											</button>
+											<p className='btn-dscrb'>O kursie</p>
+										</div>
+									</div>
+								)}
+								{sectionIndex === 1 && (
+									<div className='buttons-to-slider'>
+										<div className='left-btn'>
+											<button onClick={handleLeftArrowClick}>
+												<AiOutlineLeft />
+											</button>
+											<p className='btn-dscrb'>Rezerwacja</p>
+										</div>
+										<div className='right-btn'>
+											<button onClick={handleRightArrowClick}>
+												<AiOutlineRight />
+											</button>
+											<p className='btn-dscrb'>faq</p>
+										</div>
+									</div>
+								)}
+								{sectionIndex === 2 && (
+									<div className='buttons-to-slider'>
+										<div className='left-btn'>
+											<button onClick={handleLeftArrowClick}>
+												<AiOutlineLeft />
+											</button>
+											<p className='btn-dscrb'>O kursie</p>
+										</div>
+										<div className='right-btn'>
+											<button onClick={handleRightArrowClick}>
+												<AiOutlineRight />
+											</button>
+											<p className='btn-dscrb'>Rezerwacja</p>
+										</div>
+									</div>
+								)}
+								{/* {sectionIndex === 3 && (
+									<div className='buttons-to-slider'>
+										<div className='left-btn'>
+											<button onClick={handleLeftArrowClick}>
+												<AiOutlineLeft />
+											</button>
+											<p className='btn-dscrb'>faq</p>
+										</div>
+										<div className='right-btn'>
+											<button onClick={handleRightArrowClick}>
+												<AiOutlineRight />
+											</button>
+											<p className='btn-dscrb'>Rezerwacja</p>
+										</div>
+									</div>
+								)} */}
+								<div className='blocks-content'>
+									{sectionIndex === 0 && (
+										<div className='description-programms'>
+											<p className='reserv-spc-head'>Rezerwacja</p>
+											<a
+												href='https://powpowriders.com/pow-store/produkt/snow-pow-class-kurs-snowboardowy/'
+												className='btn-price'>
+												<GiPlayButton className='check' style={{ marginRight: '6px' }} />
+												Kupuję kurs
+											</a>
+											<p className='reserv-spc'>
+												Po dokonaniu rezerwacji i przesłaniu w zamówieniu preferowanego przez Ciebie czasu kursu,
+												otrzymasz e–mail z potwierdzeniem. Natomiast przed planowanym terminem zajęć, wszelkie
+												wskazówki.
+											</p>
+											<p className='reserv-spc'>
+												Pamiętaj, że warto przygotować sprzęt oraz karnet odpowiednio wcześnie przed zajęciami, aby w
+												pełni wykorzystać czas zajęć.
+											</p>
+											<p className='reserv-spc'>
+												Jeśli będziesz potrzebować wskazówki w tych tematach, śmiało daj znać, doradzimy.
+											</p>
+											<p className='rules-spc-head'>Zasady zajęć</p>
+											<p className='rules-spc'>– czas zajęć – pełna godzina zegarowa – 60 min</p>
+											<p className='rules-spc'>– cena nie obejmuje karnetu</p>
+											<p className='rules-spc'>– minimalna ilość godzin SNOW POW CLASSES wynosi 4 h</p>
+											<p className='rules-spc'>
+												– pakiet szkoleniowy – zawiera min. 10 h SPC – każda godzina to -10 zł – pakiet należy opłacić w
+												całości
+											</p>
+										</div>
+									)}
+									{sectionIndex === 1 && (
+										<div className='description-programms'>
+											<p className='about-course-head'>O kursie indywidualnym</p>
+											<p className='about-spc-start'>Zaczynamy zajęcia!</p>
+											<ul className='list-about-spc'>
+												<li>indywidualnie dopasowane ćwiczenia</li>
+												<li>wiedza merytoryczna, pełen profesjonalizm</li>
+												<li>
+													rozgrzewka dopasowana do snowboardingu, nastawiona na cel: wspieranie progresu, temat zajęć
+													oraz ochronę od kontuzji
+												</li>{' '}
+												<li>fajna energia i small talki na wyciągu na odpuszczenie stresiku i wzajemne poznanie się</li>{' '}
+												<li>
+													wsparcie mentalne podczas lekcji, wspólnie pracujemy nad wszelkimi blokadami mentalnymi
+													uniemożliwiającymi Twój rozwój snowboardowy
+												</li>{' '}
+												<li>booster progresu</li>
+											</ul>
+											<p className='spc-best-thing'>
+												Na Snow Pow Class możesz mieć pewność, że instruktor będzie Cię motywował. Dla Twojej najlepszej
+												korzyści, wydobycia zasobów energetycznych i indywidualnego potencjału.
+											</p>
+										</div>
+									)}
+									{sectionIndex === 2 && (
+										<div className='description-programms'>
+											<p className='faq-spc-head'>faq</p>
+											<p className='faq-quest'>
+												Czy mogę zapisać się na Snow Pow Class jeśli nie mam sprecyzowanego celu snowboardowego, a chcę
+												po prostu nauczyć się czegoś nowego?
+											</p>
+											<button onClick={() => setShowAnswer1(!showAnswer1)} className='btn-answer'>
+												Odpowiedź
+											</button>
+											{showAnswer1 && (
+												<p className='faq-answ'>
+													Oczywiście! Wtedy instruktor zaproponuje Ci ewolucje dopasowane do Twojej aktualnej formy
+													sportowej i umiejętności snowboardowych.
+												</p>
+											)}
+
+											<p className='faq-quest'>NIE MAM WŁASNEGO SPRZĘTU, CZY MOGĘ PRZYJECHAĆ?</p>
+											<button onClick={() => setShowAnswer2(!showAnswer2)} className='btn-answer'>
+												Odpowiedź
+											</button>
+											{showAnswer2 && (
+												<p className='faq-answ'>
+													Pewnie! Są dwie możliwości wypożyczenia. Pierwsza to miejsce, w którym mieszkasz i
+													przyjechanie ze sprzętem na miejsce. Druga to wyszukanie wypożyczalni online (jest ich mnóstwo
+													w Szczyrku!), zamówienie sprzętu telefonicznie i odebranie na miejscu.
+												</p>
+											)}
+											<p className='faq-quest'>JAK DOJECHAĆ DO SZCZYRKU?</p>
+											<button onClick={() => setShowAnswer3(!showAnswer3)} className='btn-answer'>
+												Odpowiedź
+											</button>
+											{showAnswer3 && (
+												<p className='faq-answ'>
+													Riders, najczęściej wybierają dojazd samochodem bezpośrednio na parking przy stoku lub komunikację publiczną np. z dowolnego miasta do Bielsko-Białej, następnie komunikacją Beskidzką (autobus miejski) prosto do Szczyrku.
+												</p>
+											)}
+											<p className='faq-quest'>Jaki jest wymagany wiek i poziom zaawansowania?</p>
+											<button onClick={() => setShowAnswer4(!showAnswer4)} className='btn-answer'>
+												Odpowiedź
+											</button>
+											{showAnswer4 && (
+												<p className='faq-answ'>
+													WIEK 5+ – bez limitu<br></br>
+													<br></br> POZIOM ZAAWANSOWANIA:{' '}
+													<ul>
+														<li>pierwsza deska – od 0</li>
+														<li>rider średnio-zaawansowany / zaawansowany</li>
+													</ul>
+												</p>
+											)}
+										</div>
+									)}
+									{/* {sectionIndex === 3 && (
+										<div className='description-programms'>
+											<p className='price-spc-head'>Cennik</p>
+											<p>wkrótce opoublikujemy cennik na sezon 2023/2024 :)</p>
+										</div>
+									)} */}
+								</div>
+							</div>
+						</div>
+					</section>
